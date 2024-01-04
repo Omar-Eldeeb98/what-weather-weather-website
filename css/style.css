@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* &================================================= Navbar =============================================================================*/
+#site_nav {
+    background-color: #1E202B !important;
+
+}
+
+#site_nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding-inline: 20px !important;
+
+}
+
+#site_nav button {
+    color: #0D8ED8;
+    padding: 14px;
+    border: 1px solid #009AD8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+#site_nav button:focus {
+    box-shadow: none;
+}
+
+#site_nav ul li.nav-item {
+
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a img {
+    width: 70px;
+    height: 70px;
+}
+
+a span {
+
+    color: #009AD8;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+a p {
+    color: var(--bs-gray-600);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 0 !important;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: bold !important;
+
+}
+
+.nav-link.active {
+    color: #0D8ED8 !important;
+    outline: 1px solid #0D8ED8;
+    padding-inline: 20px !important;
+    border-radius: 50px;
+
+}
+
+.nav-link:hover {
+    color: #0D8ED8 !important;
+    outline: 1px solid #0D8ED8;
+    padding-inline: 20px !important;
+    border-radius: 50px;
+}
+
+/* &============================================ Navbar ==================================================================================*/
+
+
+/* &================================================= weather cards section ================================================================*/
+
+#weather_cards {
+    min-height: 100vh;
+    background-image: url("../assets/images/bg_.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#weather_cards .container {
+
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.single_card {
+    color: white;
+    background-color: #323544;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search_container {
+
+    padding: 16px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search_container button.confirm_search_btn {
+    background-color: #009AD8;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px !important;
+}
+
+.search_container button.confirm_search_btn:hover {
+    background-color: #009AD8;
+    color: white;
+
+}
+
+.search_container button.detect_location {
+  
+    border: none;
+    font-size: 25px;
+    color: #009AD8;
+    background-color: #1E202B;
+    margin-left: 6px !important;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.search_container input {
+    padding: 16px;
+    border: none;
+    background-color: #1E202B;
+    color: #009AD8 !important;
+}
+
+.search_container input:focus {
+    box-shadow: none;
+    background-color: #1E202B;
+    outline: 2px solid #009AD8;
+    box-shadow: 4px 8px 20px 4px #009AD8;
+
+}
+
+.search_container input::placeholder {
+    color: var(--bs-gray-600);
+}
+
+#allData {
+    width: 100% !important;
+}
+
+.date_container {
+    background-color: #222530;
+}
+
+.date_container span {
+    color: rgb(191, 193, 200) !important;
+}
+
+.status_condition {
+    text-align: center;
+    color: #009AD8;
+    background-color: #222530;
+}
+
+.weather_sammary {
+
+    background-color: #222530;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+.weather_sammary span i {
+    color: #0D8ED8;
+
+
+}
+
+.city_name {
+    color: green;
+
+    font-size: 18px;
+    padding-left: 8px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #262936;
+    padding-block: 8px;
+    width: fit-content;
+    padding-right: 8px;
+    border-radius: 8px;
+
+}
+
+.weather_degree_td {
+    font-size: 60px;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.368);
+    padding: 8px 20px;
+    border-radius: 8px;
+
+}
+
+.status_icon_ {
+    width: 150px;
+    height: 150px;
+}
+
+.weather_degree {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    background-color: #222530;
+    padding: 8px 40px;
+    border-radius: 8px;
+
+}
+
+.weather_degree_min {
+    background-color: #222530;
+    padding: 6px;
+    border-radius: 6px;
+    color: red;
+}
+
+
+/* &================================================= weather cards section ================================================================*/
+
+.hourly_container {
+    background-color: #222530 !important;
+    text-align: center !important;
+}
+
+.hourly_container img {
+    width: 64px;
+    height: 64px;
+
+}
+
+.hourly_container p.time_ {
+    width: 100%;
+    text-align: start;
+    padding: 4px 16px;
+    background-color: #0D8ED8;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.hourly_container p:last-child {
+    padding: 4px 16px;
+    color: #009AD8;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.sammary_of_day {
+    background-color: #222530;
+    color: #009AD8;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.sammary_of_day span span {
+    background-color: #323544;
+    padding: 2px 8px;
+    border-radius:6px;
+}
+
+/* &================================================= footer ===============================================================================*/
+
+#footer {
+    background-color: #262936;
+    padding-block: 30px;
+}
+
+
+p.ay7aga {
+    line-height: 2em;
+    background-color: #323544;
+    border-radius: 16px;
+    color: #0d8ed8a9 !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+
+}
+
+p span {
+    color: #0D8ED8;
+    background-color: #1E202B;
+    padding: 6px 12px;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+
+
+
+
+.icon {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.icon:hover i {
+    color: white;
+}
+
+.icon:hover {
+    background-color: #009AD8;
+}
+
+.icon i {
+    color: #009AD8;
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+.icons_container {
+    padding: 11px;
+    border-radius: 16px;
+    background-color: #323544;
+}
+
+
+/* &================================================= footer ===============================================================================*/
+
+@media (max-width: 575.98px) {
+    .card_container_ {
+        width: 33%;
+        font-size: 14px;
+        padding-inline: 3px;
+    }
+
+    .card_container_ img {
+        width: 50px;
+        height: 50px;
+    }
+    .sammary_of_day {
+        background-color: #222530;
+        color: #009AD8;
+        text-align: center;
+        padding: 4px 8px;
+        border-radius: 8px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .sammary_of_day span span {
+        background-color: #323544;
+        padding: 2px 8px;
+        border-radius:6px;
+        font-size: 16px;
+    }
+    
+
+
+
+}

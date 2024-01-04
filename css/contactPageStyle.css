@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* &============================================ Navbar ============================================================================ */
+#site_nav {
+    background-color: #1e202b !important;
+
+
+}
+
+#site_nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding-inline: 20px !important;
+
+}
+
+#site_nav button {
+    color: #0D8ED8;
+    padding: 14px;
+    border: 1px solid #009AD8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+#site_nav button:focus {
+    box-shadow: none;
+}
+
+#site_nav ul li.nav-item {
+
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a img {
+    width: 70px;
+    height: 70px;
+}
+
+a span {
+
+    color: #009AD8;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-left: 8px;
+
+}
+
+a p {
+    color: var(--bs-gray-600);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 0 !important;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
+.nav-link.active {
+    color: #0D8ED8 !important;
+    outline: 1px solid #0D8ED8;
+    padding-inline: 20px !important;
+    border-radius: 50px;
+
+}
+
+.nav-link:hover {
+    color: #0D8ED8 !important;
+    outline: 1px solid #0D8ED8;
+    padding-inline: 20px !important;
+    border-radius: 50px;
+}
+
+/* &============================================ Navbar ============================================================================ */
+/* &============================================ contact srction ============================================================================ */
+
+#contact_us {
+    min-height: 100vh;
+}
+
+
+#contact_us .container {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contact_form p.p__ {
+  
+    font-size: 50px;
+    font-weight: bolder;
+    color: var(--bs-gray-800);
+    position: relative;
+    margin-bottom: 30px !important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.contact_form p.p__::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 200px;
+    height: 5px;
+    background-color:#009AD8;
+    border-radius: 10px;
+   
+}
+
+.contact_form p.text__ {
+font-weight: bold;
+color: var(--bs-gray-600);
+line-height: 1.7rem;
+font-size: 16px;
+letter-spacing: 1px;
+
+}
+
+.contact_form input {
+    background-color: #1E202B;
+    padding: 8px;
+    color: #009AD8;
+   
+}
+
+.contact_form input::placeholder {
+    color:gray;
+    font-size: 14px;
+    padding-inline-start: 6px;
+}
+
+.contact_form input.form-control:focus {
+    background-color: #1E202B;
+    box-shadow: none;
+    outline: 1px solid #009AD8;
+    color: #009AD8;
+}
+
+
+.contact_form textarea {
+    background-color: #1E202B;
+    padding: 8px;
+    color: #009AD8;
+    resize: vertical;
+}
+
+.contact_form textarea::placeholder {
+    color:gray;
+    font-size: 14px;
+    padding-inline-start: 6px;
+}
+
+.contact_form textarea.form-control:focus {
+    background-color: #1E202B;
+    box-shadow: none;
+    outline: 1px solid #009AD8;
+    color: #009AD8;
+}
+
+.contact_form form button {
+    transition: all 0.5s;
+}
+
+.contact_form form button:hover {
+
+    padding-inline: 60px !important;
+   
+   
+}
+
+/* &================================================= contact section ===============================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* &================================================= footer ===============================================================================*/
+
+#footer {
+    background-color: #262936;
+    padding-block: 30px;
+}
+
+
+p.ay7aga {
+    line-height: 2em;
+    background-color: #323544;
+    border-radius: 16px;
+    color: #0d8ed8a9 !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+
+}
+
+p span {
+    color: #0D8ED8;
+    background-color: #1E202B;
+    padding: 6px 12px;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+
+
+
+
+.icon {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.icon:hover i {
+    color: white;
+}
+
+.icon:hover {
+    background-color: #009AD8;
+}
+
+.icon i {
+    color: #009AD8;
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+.icons_container {
+    padding: 11px;
+    border-radius: 16px;
+    background-color: #323544;
+}
+
+
+/* &================================================= footer ===============================================================================*/
