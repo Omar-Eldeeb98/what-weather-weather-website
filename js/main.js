@@ -31,7 +31,7 @@ function getData(selectedLocation) {
   });
 }
 
-getData("cairo");
+getData("Cairo");
 
 function displayData(x) {
   var date1 = new Date(x.forecast.forecastday[0].date);
@@ -527,7 +527,7 @@ confirmSearchBtn.addEventListener("click", function () {
       text: "🤡",
       icon: "error",
     });
-    getData("cairo");
+    getData("Cairo");
   }
   getData(searchInput.value);
 });
